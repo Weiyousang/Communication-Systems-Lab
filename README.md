@@ -1,2 +1,39 @@
-# Communication-Systems-Lab
-Collection of analog and digital communication lab experiments, focusing on the design, implementation, and measurement of AM, DSB-SC/SSB, FSK, PSK, and TDM modulation/demodulation circuits.
+# 📡 Communication Systems Lab | 通訊系統實習
+
+## 📝 About The Project (關於專案)
+本專案收錄了通訊工程實習的系列實驗報告與紀錄。內容涵蓋基礎類比與數位訊號的調變與解調技術。透過實際的硬體電路設計、模組操作與示波器量測，深入探討各類通訊系統的訊號波形、頻譜特性以及除錯過程。
+
+此專案展現了對於底層通訊原理的理解，以及在硬體量測、電路調整與系統控制上的實作經驗。
+
+## 🔬 Lab Experiments (實驗內容)
+
+本專案包含以下五個主要的實驗單元：
+
+* **Lab 1: AM 調變解調電路設計與量測**
+  * 探討振幅調變 (Amplitude Modulation) 原理，設計電晶體調變器與平衡調變器。
+  * 透過調整音頻與載波訊號，觀察波形變化並計算調變百分比。
+
+* **Lab 2: DSB-SC/SSB 調變與解調**
+  * 實作雙旁波帶抑制載波 (DSB-SC) 與單旁波帶 (SSB) 的調變電路。
+  * 利用乘積檢波器 (Product Detector) 進行信號的還原與解調量測。
+
+* **Lab 3: FSK 調變器/解調器**
+  * 深入了解頻移按鍵 (Frequency-Shift Keying) 的調變與解調原理。
+  * 利用壓控振盪器 (VCO) 設計 FSK 調變器，並運用鎖相迴路 (PLL) 製作檢測電路。
+
+* **Lab 4: PSK 調變器/解調器**
+  * 使用 MC1496 晶片設計相移按鍵 (Phase-Shift Keying) 調變器。
+  * 完成解調電路測試，並利用示波器觀察單極性/雙極性轉換與平衡調變器輸出之訊號波形。
+
+* **Lab 5: TDM 多工器/解多工器**
+  * 實作分時多工 (Time-Division Multiplexing) 技術。
+  * 設計波形產生器 (正弦波、三角波、方波)，並透過多工器與解多工器進行多通道信號的合併與分離量測。
+
+## 🛠️ Hardware & Tools (硬體與量測工具)
+* **儀器**: 數位式示波器 (Digital Storage Oscilloscope)、函數產生器
+* **實驗模組**: ETEK ACS-3000 系列 (類比通訊) & DCS-6000 系列 (數位通訊)
+* **關鍵元件**: 壓控振盪器 (VCO)、鎖相迴路 (PLL)、MC1496 等通訊 IC
+
+## 👨‍💻 Author
+**桑瑋佑 (Wei-You Sang)**
+* 專注於通訊系統、嵌入式系統與控制工程領域。
